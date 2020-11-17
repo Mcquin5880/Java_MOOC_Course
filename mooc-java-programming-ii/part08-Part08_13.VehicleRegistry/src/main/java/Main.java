@@ -32,4 +32,6 @@ public class Main {
         System.out.println(owners.get(new LicensePlate("D", "B WQ-431")));
         // if the hashCode-method hasn't been overwritten, the owners won't be found
     }
+    
+    
 }
