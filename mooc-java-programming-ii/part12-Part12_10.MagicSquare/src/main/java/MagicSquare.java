@@ -17,15 +17,53 @@ public class MagicSquare {
 
     // implement these three methods
     public ArrayList<Integer> sumsOfRows() {
-        return new ArrayList<>();
+        ArrayList<Integer> sums = new ArrayList<>();
+        for (int i = 0; i < square.length; i++) {
+            int currentSum = 0;
+            for (int j = 0; j < square[0].length; j++) {
+                currentSum += square[i][j];
+            }
+            sums.add(currentSum);
+        }
+        return sums;
     }
 
     public ArrayList<Integer> sumsOfColumns() {
-        return new ArrayList<>();
+        ArrayList<Integer> sums = new ArrayList<>();
+        for (int i = 0; i < square[0].length; i++) {
+            int currentSum = 0;
+            for (int j = 0; j < square.length; j++) {
+                currentSum += square[j][i];
+            }
+            sums.add(currentSum);
+        }
+        return sums;
     }
 
     public ArrayList<Integer> sumsOfDiagonals() {
-        return new ArrayList<>();
+        
+        ArrayList<Integer> sums = new ArrayList<>();
+        int row = 0;
+        int col = 0;
+        int currSum = 0;
+        
+        while (row < square.length && col < square[0].length) {
+            currSum += square[row][col];
+            row++;
+            col++;
+        }
+        sums.add(currSum);
+        
+        row = square.length - 1;
+        col = 0;
+        currSum = 0;
+        while (row >= 0) {
+            currSum += square[row][col];
+            row--;
+            col++;
+        }
+        sums.add(currSum);
+        return sums;
     }
 
     // ready-made helper methods -- don't touch these
