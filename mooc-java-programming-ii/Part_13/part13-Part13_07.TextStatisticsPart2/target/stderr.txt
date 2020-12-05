@@ -1,0 +1,5 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.testfx.service.adapter.impl.PrivateGlassRobotAdapter (file:/C:/Users/Michael%20Quinter/.m2/repository/org/testfx/testfx-core/4.0.15-alpha/testfx-core-4.0.15-alpha.jar) to method com.sun.glass.ui.Application.GetApplication()
+WARNING: Please consider reporting this to the maintainers of org.testfx.service.adapter.impl.PrivateGlassRobotAdapter
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
