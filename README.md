@@ -1,1 +1,1 @@
-# Java_MOOC_Course
+# Java_Studies
