@@ -1,3 +1,7 @@
+
+// Class is used for practicing JUnit tests and is not meant to represent a robust implementation
+// of a bank account class
+
 public class BankAccount {
 
     private String firstName;
