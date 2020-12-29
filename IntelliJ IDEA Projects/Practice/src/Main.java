@@ -4,13 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int n = 3;
+        for (Planet planet : Planet.values()) {
+            if (planet.mass() > 5.0e+24 && planet.radius() > 6.0e+7) {
+                System.out.println(planet);
+            }
+        }
 
     }
 
-    private static int largestNumber(int n) {
-        return (int) Math.pow(10, n) - 1;
-    }
 
 }
 
