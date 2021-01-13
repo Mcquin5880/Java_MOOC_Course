@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c7d33b2-9ec4-49cc-814a-b199e2b65c6a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntelliJ IDEA Projects.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BankAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BankAccountTest.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/guessinggame/src/main/java/com/example/guessinggame/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/guessinggame/src/main/java/com/example/guessinggame/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/guessinggame/src/main/java/com/example/guessinggame/GameImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/guessinggame/src/main/java/com/example/guessinggame/MessageGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/guessinggame/src/main/java/com/example/guessinggame/MessageGeneratorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/guessinggame/src/main/java/com/example/guessinggame/NumberGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/guessinggame/src/main/java/com/example/guessinggame/NumberGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/out/production/Practice/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/out/production/Practice/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/src/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/src/AlertService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/src/DocumentCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/src/DriverExam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/src/MergeNames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/src/Planet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/src/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/src/TwoSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/src/UserInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/guessinggame/src/main/java/com/example/guessinggame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/guessinggame/src/main/java/com/example/guessinggame/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +40,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -50,5 +64,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Practice/src/Main.java</url>
+          <line>4</line>
+          <properties class="Main" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
